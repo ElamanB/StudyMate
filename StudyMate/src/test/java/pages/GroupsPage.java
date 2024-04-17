@@ -40,6 +40,9 @@ public class GroupsPage {
     @FindBy(id = "modal")
     public WebElement popUpGroupWindow;
 
+    @FindBy(xpath = "//div[text()='Group one!']")
+    public WebElement newCreatedGroup;
+
 
 
 
